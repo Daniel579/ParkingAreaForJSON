@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674A1C2B212AD362000AE9C4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A1C2A212AD362000AE9C4 /* JSON.swift */; };
+		6751A3C6212BC4DC0087D4F0 /* ParkingAreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751A3C5212BC4DC0087D4F0 /* ParkingAreaTableViewCell.swift */; };
+		6751A3C9212BF2950087D4F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6751A3C8212BF2950087D4F0 /* MapKit.framework */; };
+		6751A3CB212BF72B0087D4F0 /* ParkingAreaDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751A3CA212BF72B0087D4F0 /* ParkingAreaDetailTableViewCell.swift */; };
+		6751A3CD212BFB020087D4F0 /* ParkingAreaDetailMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751A3CC212BFB020087D4F0 /* ParkingAreaDetailMapTableViewCell.swift */; };
+		6751A3CF212BFBDB0087D4F0 /* ParkingAreaDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751A3CE212BFBDB0087D4F0 /* ParkingAreaDetailTableViewController.swift */; };
 		676E788421247CB90049B061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E788321247CB90049B061 /* AppDelegate.swift */; };
-		676E788621247CB90049B061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E788521247CB90049B061 /* ViewController.swift */; };
 		676E788921247CB90049B061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676E788721247CB90049B061 /* Main.storyboard */; };
 		676E788B21247CBE0049B061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676E788A21247CBE0049B061 /* Assets.xcassets */; };
 		676E788E21247CBE0049B061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676E788C21247CBE0049B061 /* LaunchScreen.storyboard */; };
+		676E789621247D310049B061 /* ParkingAreaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E789521247D310049B061 /* ParkingAreaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		674A1C2A212AD362000AE9C4 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		6751A3C5212BC4DC0087D4F0 /* ParkingAreaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAreaTableViewCell.swift; sourceTree = "<group>"; };
+		6751A3C8212BF2950087D4F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6751A3CA212BF72B0087D4F0 /* ParkingAreaDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAreaDetailTableViewCell.swift; sourceTree = "<group>"; };
+		6751A3CC212BFB020087D4F0 /* ParkingAreaDetailMapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAreaDetailMapTableViewCell.swift; sourceTree = "<group>"; };
+		6751A3CE212BFBDB0087D4F0 /* ParkingAreaDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAreaDetailTableViewController.swift; sourceTree = "<group>"; };
 		676E788021247CB90049B061 /* ParkingAreaForJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingAreaForJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676E788321247CB90049B061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		676E788521247CB90049B061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		676E788821247CB90049B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		676E788A21247CBE0049B061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676E788D21247CBE0049B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		676E788F21247CBE0049B061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676E789521247D310049B061 /* ParkingAreaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAreaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6751A3C9212BF2950087D4F0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6751A3C7212BF2950087D4F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6751A3C8212BF2950087D4F0 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		676E787721247CB80049B061 = {
 			isa = PBXGroup;
 			children = (
 				676E788221247CB90049B061 /* ParkingAreaForJSON */,
 				676E788121247CB90049B061 /* Products */,
+				6751A3C7212BF2950087D4F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +77,16 @@
 			isa = PBXGroup;
 			children = (
 				676E788321247CB90049B061 /* AppDelegate.swift */,
-				676E788521247CB90049B061 /* ViewController.swift */,
 				676E788721247CB90049B061 /* Main.storyboard */,
 				676E788A21247CBE0049B061 /* Assets.xcassets */,
 				676E788C21247CBE0049B061 /* LaunchScreen.storyboard */,
 				676E788F21247CBE0049B061 /* Info.plist */,
+				676E789521247D310049B061 /* ParkingAreaTableViewController.swift */,
+				674A1C2A212AD362000AE9C4 /* JSON.swift */,
+				6751A3C5212BC4DC0087D4F0 /* ParkingAreaTableViewCell.swift */,
+				6751A3CA212BF72B0087D4F0 /* ParkingAreaDetailTableViewCell.swift */,
+				6751A3CC212BFB020087D4F0 /* ParkingAreaDetailMapTableViewCell.swift */,
+				6751A3CE212BFBDB0087D4F0 /* ParkingAreaDetailTableViewController.swift */,
 			);
 			path = ParkingAreaForJSON;
 			sourceTree = "<group>";
@@ -96,6 +123,11 @@
 				TargetAttributes = {
 					676E787F21247CB80049B061 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676E788621247CB90049B061 /* ViewController.swift in Sources */,
+				674A1C2B212AD362000AE9C4 /* JSON.swift in Sources */,
+				6751A3C6212BC4DC0087D4F0 /* ParkingAreaTableViewCell.swift in Sources */,
 				676E788421247CB90049B061 /* AppDelegate.swift in Sources */,
+				6751A3CD212BFB020087D4F0 /* ParkingAreaDetailMapTableViewCell.swift in Sources */,
+				6751A3CB212BF72B0087D4F0 /* ParkingAreaDetailTableViewCell.swift in Sources */,
+				676E789621247D310049B061 /* ParkingAreaTableViewController.swift in Sources */,
+				6751A3CF212BFBDB0087D4F0 /* ParkingAreaDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
